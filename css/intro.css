@@ -1,7 +1,6 @@
 #intro {
   width:100vw;
   height:100vh;
-  /* background-color: yellow; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,11 +9,12 @@
   left: 0;
   z-index: 1;
   opacity: 1;
+  /* background-color: black; */
   
 }
 
 #video {
-  width:50vw;
+  width:750px;
   height:90%;
   border:1px solid black;
   display: flex;
@@ -22,6 +22,5 @@
   justify-content: center;
   background-image: url(../asset/2565e7bcf6ba1df1ffd9956381c41f5e.jpg);
   background-size:cover;
-
 
 }

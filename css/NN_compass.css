@@ -1,0 +1,74 @@
+#NN_compass {
+  width:100vw;
+  height:100vh;
+  background-color: black;
+  position: relative;
+  z-index: 40;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.textBox {
+  width:400px;
+  height:300px;
+  /* border: 1px solid white; */
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.textBox > div {
+  width:300px;
+  height:50px;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  /* border:3px solid white; */
+  font-size: 100%;
+
+}
+
+.textBox > div:nth-child(1)  {
+  font-weight: bold;
+  width:250px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.textBox > div:nth-child(1) > p {
+  font-weight: bold;
+  padding-left: 25px;
+
+}
+
+
+.textBox > div:nth-child(2) {
+  border-radius: 25px;
+  border:3px solid white;
+}
+
+.textBox > div > p {
+  color: white;
+  font-size: 1.5rem;
+}
+
+#footText {
+  width:100vw;
+  height:180px;
+  /* border: 1px solid white; */
+  position: absolute;
+  bottom: 0px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+#footText > p {
+  font-size: 9vw;
+  font-weight: bold;
+}
